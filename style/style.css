@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 header {
@@ -12,19 +17,29 @@ body {
     font-family: 'Shadows Into Light Two', cursive;
 }
 
+h3 {
+
+    margin-top: 18px;
+}
+.row {
+    width: 1280px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    clear: both;
+    display: block;
+    content: '';
+}
+
 .word {
     width: 250px;
     height: 60px;
     border:1px solid #996964;
-    display: inline-block;
     float: left;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-top: 60px;
-}
-
-.word:first-child {
-    margin-left: 200px;
 }
 
 
@@ -56,21 +71,18 @@ div:nth-child(4) .meaning p, div:nth-child(5) .meaning p{
 
 
 section {
-    height: 800px;
+
+    height: 900px;
+    margin-bottom: -20px;
+
     background-image: linear-gradient(top, #fefdfa 0%, #f6eac2 17%, #eed88b 35%, #c3a077 50%, #996964 67%, #623a47 83%, #2b0c2b 100%);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefdfa), color-stop(0.167, #f6eac2), color-stop(0.353254226, #eed88b), color-stop(0.5, #c3a077), color-stop(0.6669999995, #996964), color-stop(0.833, #623a47), color-stop(1, #2b0c2b));
     background-image: -moz-linear-gradient(top, #fefdfa 0%, #f6eac2 17%, #eed88b 35%, #c3a077 50%, #996964 67%, #623a47 83%, #2b0c2b 100%);
     background-image: -o-linear-gradient(top, #fefdfa 0%, #f6eac2 17%, #eed88b 35%, #c3a077 50%, #996964 67%, #623a47 83%, #2b0c2b 100%);
     background-image: -ms-linear-gradient(top, #fefdfa 0%, #f6eac2 17%, #eed88b 35%, #c3a077 50%, #996964 67%, #623a47 83%, #2b0c2b 100%);
 
-
-    margin-bottom: -20px;
-
 }
 
-.container {
-
-}
 
 footer {
     background-color: #2B0C2B;
